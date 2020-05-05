@@ -42,20 +42,6 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', 'img/logo.png')
 
 
-// let entirePage = document.querySelector('html');
-// entirePage.append(siteContent);
-// console.log(entirePage)
-
-let container = document.getElementsByClassName('container');
-// console.log(container);
-
-let header = document.getElementsByTagName('header');
-
-let navBar = document.getElementsByTagName('nav');
-// console.log(navBar);
-let navArr = Array.from(navBar);
-// console.log(navArr);
-
 let anchorTags = document.getElementsByTagName('a');
 let anchorArr = Array.from(anchorTags);
 anchorArr[0].textContent =  'Service'
@@ -86,10 +72,10 @@ topContentP.textContent = 'Features content elementum magna eros, ac posuere elv
 let topContentA = document.querySelectorAll('.top-content .text-content h4')[1];
 let topContentAP = document.querySelectorAll('.top-content .text-content p')[1];
 topContentA.textContent = 'About';
-topContentAP.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+topContentAP.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
-// let middleImg = document.querySelectorAll('.middle-img');
-// middleImg.src = 'img/mid-page-accent.jpg';
+let middleImg = document.querySelectorAll('img')[2];
+middleImg.src = 'img/mid-page-accent.jpg';
 
 // bottom content
 let bottomContentS = document.querySelectorAll('.bottom-content .text-content h4')[0];
